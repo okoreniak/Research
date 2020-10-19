@@ -103,6 +103,8 @@ add_subdirectory(src)
 add_subdirectory(translations)
 add_subdirectory(desktop)
 
+#print_all_variables()
+
 if (BUILD_TESTS)
 	configure_file(src/BuildConfig.h.in ${CMAKE_CURRENT_BINARY_DIR}/tests/BuildConfig.h)
 
